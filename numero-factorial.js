@@ -1,7 +1,8 @@
-let numero="4";
+let numero="1";
 let prueba=isNaN("perro");
 
 function calcularFactorial(numero){
+  
   if (isNaN(numero)){
   	console.log("no es un numero");
   } else if (numero<0){
@@ -13,8 +14,9 @@ function calcularFactorial(numero){
             for (i=1;i <= numero;i++){
               factorial = factorial * i;
       }
-      }
         return factorial;
+      }
+        
       }
 calcularFactorial(numero);
 const resultadoFactorial = calcularFactorial(numero);
